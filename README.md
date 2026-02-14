@@ -1,32 +1,15 @@
 # Jogo-RPG
-Projeto de RPG em Java aplicando conceitos de POO (herança, polimorfismo e encapsulamento) com arquitetura organizada em pacotes.
+Este projeto consiste em um jogo de RPG em modo console desenvolvido em Java, com foco na aplicação prática de Programação Orientada a Objetos e organização arquitetural do código.
 
-Este projeto consiste em um jogo de RPG em modo console no qual o jogador pode escolher diferentes classes de personagem, cada uma com atributos e habilidades específicas. O sistema implementa regras de combate, gerenciamento de atributos como pontos de vida (PV) e pontos de mana (PM), além de organização modular do código em pacotes separados.
+O sistema implementa um modelo de combate por turnos, no qual personagens possuem atributos como pontos de vida e recursos específicos de classe.
 
-O objetivo principal do projeto foi aplicar conceitos sólidos de orientação a objetos e estruturar um sistema de forma organizada e escalável.
+A arquitetura está organizada em múltiplos pacotes, incluindo camadas de ações, batalhas, personagens, classes especializadas, ataques, fábrica de criação de objetos e lógica de inteligência artificial. Foi utilizado o padrão de projeto Factory para instanciar personagens de maneira desacoplada, permitindo maior escalabilidade e facilidade de manutenção.
 
-⚙️ Funcionalidades
-Seleção de classe de personagem (ex: Guerreiro, Mago)
-Sistema de atributos (vida, mana, etc.)
-Ataques físicos e mágicos
-Habilidades especiais
-Organização do projeto em múltiplos pacotes
-Interação via console
-
-🛠️ Tecnologias e Conceitos Utilizados
-Java
-Programação Orientada a Objetos (POO)
-Herança
-Encapsulamento
-Polimorfismo
-Enum
-Organização modular por pacotes
-Separação entre interface e regras de negócio
-
-🧠 Estrutura do Projeto
-
-O projeto está organizado em pacotes separados para melhor organização:
-ui → interação com o usuário
-personagem → classe base e atributos
-classes → especializações de personagens
-ataques → implementação dos tipos de ataque
+Principais aspectos técnicos:
+Modelagem orientada a objetos com herança e polimorfismo
+Encapsulamento de regras de negócio
+Implementação de sistema de combate por turnos
+Separação de camadas (UI, domínio e lógica de batalha)
+Uso de padrão Factory para criação de entidades
+Estrutura modular organizada por pacotes
+Implementação de lógica de decisão para inimigos (IA)
